@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+
+export("dcfust", "dfmcfust", "rcfust", "rfmcfust", "fmcfust", "init.fmcfust", "init.cfust", "fmcfust.contour.2d", "fmcfust.contour.3d", "summary.fmcfust", "fmmst")
+import(graphics)
+import(rgl)
+importFrom("MASS", "mvrnorm")
+importFrom("mnormt", "pmt", "dmt","sadmvn")
+importFrom("grDevices", "col2rgb", "colorRampPalette", "colors", "rgb")
+importFrom("stats", "cov", "cov2cor", "kmeans", "pnorm", "pt","qgamma", "qnorm", "quantile", "rgamma", "runif", "uniroot","var")
+S3method(summary, fmcfust)
+

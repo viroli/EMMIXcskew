@@ -1,0 +1,18 @@
+bibentry(bibtype = "Article",
+  title        = "{EMMIXcskew}: An {R} Package for the Fitting of a Mixture of Canonical Fundamental Skew $t$-Distributions",
+  author       = c(person(given = c("Sharon", "X."),
+                          family = "Lee",
+                          email = "s.lee11@uq.edu.au"),
+                   person(given = c("Geoffrey", "J."),
+                          family = "McLachlan",
+                          email = "g.mclachlan@uq.edu.au")),
+  journal      = "Journal of Statistical Software",
+  year         = "2017",
+  volume       = "83",
+  number       = "3",
+  pages        = "1--32",
+  doi          = "10.18637/jss.v083.i03",
+
+  header       = "To cite EMMIXcskew in publications use:"
+)
+
